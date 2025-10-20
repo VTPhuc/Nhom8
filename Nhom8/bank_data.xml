@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BankDatabase>
+  <Branches>
+    <Branch>
+      <BranchID>B001</BranchID>
+      <Name>Hanoi Central</Name>
+      <Address>1 Le Loi, Hanoi</Address>
+      <Phone>024-111-0001</Phone>
+    </Branch>
+    <Branch>
+      <BranchID>B002</BranchID>
+      <Name>Hanoi West</Name>
+      <Address>45 Tran Duy Hung, Hanoi</Address>
+      <Phone>024-111-0002</Phone>
+    </Branch>
+    <Branch>
+      <BranchID>B003</BranchID>
+      <Name>Saigon Central</Name>
+      <Address>10 Nguyen Hue, HCM</Address>
+      <Phone>028-222-0003</Phone>
+    </Branch>
+    <Branch>
+      <BranchID>B004</BranchID>
+      <Name>Da Nang Branch</Name>
+      <Address>5 Bach Dang, Da Nang</Address>
+      <Phone>0236-333-0004</Phone>
+    </Branch>
+    <Branch>
+      <BranchID>B005</BranchID>
+      <Name>Hai Phong Branch</Name>
+      <Address>12 Le Chan, Hai Phong</Address>
+      <Phone>0225-444-0005</Phone>
+    </Branch>
+    <Branch>
+      <BranchID>B006</BranchID>
+      <Name>Can Tho Branch</Name>
+      <Address>8 Nguyen Trai, Can Tho</Address>
+      <Phone>0292-555-0006</Phone>
+    </Branch>
+    <Branch>
+      <BranchID>B007</BranchID>
+      <Name>Hue Branch</Name>
+      <Address>20 Hung Vuong, Hue</Address>
+      <Phone>0234-666-0007</Phone>
+    </Branch>
+  </Branches>
+
+  <Employees>
+    <Employee>
+      <EmployeeID>E001</EmployeeID>
+      <FullName>Nguyen Van An</FullName>
+      <Position>Manager</Position>
+      <Department>Customer Service</Department>
+      <BranchID>B001</BranchID>
+    </Employee>
+    <Employee>
+      <EmployeeID>E002</EmployeeID>
+      <FullName>Tran Thi Bich</FullName>
+      <Position>Teller</Position>
+      <Department>Transactions</Department>
+      <BranchID>B001</BranchID>
+    </Employee>
+    <Employee>
+      <EmployeeID>E003</EmployeeID>
+      <FullName>Le Van Cuong</FullName>
+      <Position>Phuc Officer</Position>
+      <Department>Phucs</Department>
+      <BranchID>B002</BranchID>
+    </Employee>
+    <Employee>
+      <EmployeeID>E004</EmployeeID>
+      <FullName>Pham Thi Dao</FullName>
+      <Position>Card Specialist</Position>
+      <Department>Cards</Department>
+      <BranchID>B003</BranchID>
+    </Employee>
+    <Employee>
+      <EmployeeID>E005</EmployeeID>
+      <FullName>Hoang Van Em</FullName>
+      <Position>Cashier</Position>
+      <Department>Operations</Department>
+      <BranchID>B004</BranchID>
+    </Employee>
+    <Employee>
+      <EmployeeID>E006</EmployeeID>
+      <FullName>Do Thi Hoa</FullName>
+      <Position>Accountant</Position>
+      <Department>Finance</Department>
+      <BranchID>B005</BranchID>
+    </Employee>
+    <Employee>
+      <EmployeeID>E007</EmployeeID>
+      <FullName>Nguyen Van Giang</FullName>
+      <Position>HR</Position>
+      <Department>Human Resource</Department>
+      <BranchID>B006</BranchID>
+    </Employee>
+  </Employees>
+
+  <Customers>
+    <Customer>
+      <CustomerID>C001</CustomerID>
+      <FullName>Nguyen Van A</FullName>
+      <BirthDate>1990-01-15</BirthDate>
+      <Phone>0901234567</Phone>
+      <Email>a.nguyen@example.com</Email>
+      <Address>Hanoi</Address>
+    </Customer>
+    <Customer>
+      <CustomerID>C002</CustomerID>
+      <FullName>Tran Thi B</FullName>
+      <BirthDate>1992-03-22</BirthDate>
+      <Phone>0902345678</Phone>
+      <Email>b.tran@example.com</Email>
+      <Address>Hanoi</Address>
+    </Customer>
+    <Customer>
+      <CustomerID>C003</CustomerID>
+      <FullName>Le Van C</FullName>
+      <BirthDate>1988-06-10</BirthDate>
+      <Phone>0903456789</Phone>
+      <Email>c.le@example.com</Email>
+      <Address>HCM</Address>
+    </Customer>
+    <Customer>
+      <CustomerID>C004</CustomerID>
+      <FullName>Pham Thi D</FullName>
+      <BirthDate>1995-02-28</BirthDate>
+      <Phone>0904567890</Phone>
+      <Email>d.pham@example.com</Email>
+      <Address>Da Nang</Address>
+    </Customer>
+    <Customer>
+      <CustomerID>C005</CustomerID>
+      <FullName>Hoang Van E</FullName>
+      <BirthDate>1989-09-09</BirthDate>
+      <Phone>0905678901</Phone>
+      <Email>e.hoang@example.com</Email>
+      <Address>Hai Phong</Address>
+    </Customer>
+    <Customer>
+      <CustomerID>C006</CustomerID>
+      <FullName>Do Thi F</FullName>
+      <BirthDate>1993-11-19</BirthDate>
+      <Phone>0906789012</Phone>
+      <Email>f.do@example.com</Email>
+      <Address>Hue</Address>
+    </Customer>
+    <Customer>
+      <CustomerID>C007</CustomerID>
+      <FullName>Nguyen Van G</FullName>
+      <BirthDate>1997-07-07</BirthDate>
+      <Phone>0907890123</Phone>
+      <Email>g.nguyen@example.com</Email>
+      <Address>Can Tho</Address>
+    </Customer>
+  </Customers>
+
+  <Accounts>
+    <Account>
+      <AccountID>A001</AccountID>
+      <Type>Saving</Type>
+      <Balance>5000000</Balance>
+      <OpenDate>2020-01-01</OpenDate>
+      <CustomerID>C001</CustomerID>
+    </Account>
+    <Account>
+      <AccountID>A002</AccountID>
+      <Type>Checking</Type>
+      <Balance>8000000</Balance>
+      <OpenDate>2021-02-02</OpenDate>
+      <CustomerID>C002</CustomerID>
+    </Account>
+    <Account>
+      <AccountID>A003</AccountID>
+      <Type>Saving</Type>
+      <Balance>3000000</Balance>
+      <OpenDate>2021-03-03</OpenDate>
+      <CustomerID>C003</CustomerID>
+    </Account>
+    <Account>
+      <AccountID>A004</AccountID>
+      <Type>Checking</Type>
+      <Balance>7000000</Balance>
+      <OpenDate>2021-04-04</OpenDate>
+      <CustomerID>C004</CustomerID>
+    </Account>
+    <Account>
+      <AccountID>A005</AccountID>
+      <Type>Saving</Type>
+      <Balance>9000000</Balance>
+      <OpenDate>2022-05-05</OpenDate>
+      <CustomerID>C005</CustomerID>
+    </Account>
+    <Account>
+      <AccountID>A006</AccountID>
+      <Type>Checking</Type>
+      <Balance>10000000</Balance>
+      <OpenDate>2023-06-06</OpenDate>
+      <CustomerID>C006</CustomerID>
+    </Account>
+    <Account>
+      <AccountID>A007</AccountID>
+      <Type>Saving</Type>
+      <Balance>15000000</Balance>
+      <OpenDate>2023-07-07</OpenDate>
+      <CustomerID>C007</CustomerID>
+    </Account>
+  </Accounts>
+
+  <Transactions>
+    <Transaction>
+      <TransactionID>T001</TransactionID>
+      <Date>2024-01-01</Date>
+      <Amount>200000</Amount>
+      <Type>Deposit</Type>
+      <AccountID>A001</AccountID>
+    </Transaction>
+    <Transaction>
+      <TransactionID>T002</TransactionID>
+      <Date>2024-02-15</Date>
+      <Amount>150000</Amount>
+      <Type>Withdraw</Type>
+      <AccountID>A002</AccountID>
+    </Transaction>
+    <Transaction>
+      <TransactionID>T003</TransactionID>
+      <Date>2024-03-10</Date>
+      <Amount>300000</Amount>
+      <Type>Deposit</Type>
+      <AccountID>A003</AccountID>
+    </Transaction>
+    <Transaction>
+      <TransactionID>T004</TransactionID>
+      <Date>2024-04-20</Date>
+      <Amount>250000</Amount>
+      <Type>Withdraw</Type>
+      <AccountID>A004</AccountID>
+    </Transaction>
+    <Transaction>
+      <TransactionID>T005</TransactionID>
+      <Date>2024-05-01</Date>
+      <Amount>100000</Amount>
+      <Type>Deposit</Type>
+      <AccountID>A005</AccountID>
+    </Transaction>
+    <Transaction>
+      <TransactionID>T006</TransactionID>
+      <Date>2024-06-05</Date>
+      <Amount>120000</Amount>
+      <Type>Withdraw</Type>
+      <AccountID>A006</AccountID>
+    </Transaction>
+    <Transaction>
+      <TransactionID>T007</TransactionID>
+      <Date>2024-07-15</Date>
+      <Amount>180000</Amount>
+      <Type>Deposit</Type>
+      <AccountID>A007</AccountID>
+    </Transaction>
+  </Transactions>
+
+  <Phucs>
+    <Phuc>
+      <Phucid>L001</Phucid>
+      <Amount>10000000</Amount>
+      <InterestRate>5.5</InterestRate>
+      <Term>12</Term>
+      <StartDate>2023-01-01</StartDate>
+      <CustomerID>C001</CustomerID>
+    </Phuc>
+    <Phuc>
+      <Phucid>L002</Phucid>
+      <Amount>20000000</Amount>
+      <InterestRate>6.0</InterestRate>
+      <Term>24</Term>
+      <StartDate>2023-02-02</StartDate>
+      <CustomerID>C002</CustomerID>
+    </Phuc>
+    <Phuc>
+      <Phucid>L003</Phucid>
+      <Amount>15000000</Amount>
+      <InterestRate>6.2</InterestRate>
+      <Term>18</Term>
+      <StartDate>2023-03-03</StartDate>
+      <CustomerID>C003</CustomerID>
+    </Phuc>
+    <Phuc>
+      <Phucid>L004</Phucid>
+      <Amount>12000000</Amount>
+      <InterestRate>5.8</InterestRate>
+      <Term>12</Term>
+      <StartDate>2023-04-04</StartDate>
+      <CustomerID>C004</CustomerID>
+    </Phuc>
+    <Phuc>
+      <Phucid>L005</Phucid>
+      <Amount>9000000</Amount>
+      <InterestRate>5.0</InterestRate>
+      <Term>6</Term>
+      <StartDate>2023-05-05</StartDate>
+      <CustomerID>C005</CustomerID>
+    </Phuc>
+    <Phuc>
+      <Phucid>L006</Phucid>
+      <Amount>18000000</Amount>
+      <InterestRate>6.3</InterestRate>
+      <Term>24</Term>
+      <StartDate>2023-06-06</StartDate>
+      <CustomerID>C006</CustomerID>
+    </Phuc>
+    <Phuc>
+      <Phucid>L007</Phucid>
+      <Amount>25000000</Amount>
+      <InterestRate>6.5</InterestRate>
+      <Term>36</Term>
+      <StartDate>2023-07-07</StartDate>
+      <CustomerID>C007</CustomerID>
+    </Phuc>
+  </Phucs>
+
+  <Cards>
+    <Card>
+      <CardID>CRD001</CardID>
+      <Type>Visa</Type>
+      <IssueDate>2022-01-01</IssueDate>
+      <ExpiryDate>2026-01-01</ExpiryDate>
+      <AccountID>A001</AccountID>
+    </Card>
+    <Card>
+      <CardID>CRD002</CardID>
+      <Type>MasterCard</Type>
+      <IssueDate>2022-02-01</IssueDate>
+      <ExpiryDate>2026-02-01</ExpiryDate>
+      <AccountID>A002</AccountID>
+    </Card>
+    <Card>
+      <CardID>CRD003</CardID>
+      <Type>Visa</Type>
+      <IssueDate>2022-03-01</IssueDate>
+      <ExpiryDate>2026-03-01</ExpiryDate>
+      <AccountID>A003</AccountID>
+    </Card>
+    <Card>
+      <CardID>CRD004</CardID>
+      <Type>MasterCard</Type>
+      <IssueDate>2022-04-01</IssueDate>
+      <ExpiryDate>2026-04-01</ExpiryDate>
+      <AccountID>A004</AccountID>
+    </Card>
+    <Card>
+      <CardID>CRD005</CardID>
+      <Type>Visa</Type>
+      <IssueDate>2022-05-01</IssueDate>
+      <ExpiryDate>2026-05-01</ExpiryDate>
+      <AccountID>A005</AccountID>
+    </Card>
+    <Card>
+      <CardID>CRD006</CardID>
+      <Type>MasterCard</Type>
+      <IssueDate>2022-06-01</IssueDate>
+      <ExpiryDate>2026-06-01</ExpiryDate>
+      <AccountID>A006</AccountID>
+    </Card>
+    <Card>
+      <CardID>CRD007</CardID>
+      <Type>Visa</Type>
+      <IssueDate>2022-07-01</IssueDate>
+      <ExpiryDate>2026-07-01</ExpiryDate>
+      <AccountID>A007</AccountID>
+    </Card>
+  </Cards>
+</BankDatabase>

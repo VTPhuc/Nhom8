@@ -1,0 +1,47 @@
+<!ELEMENT BankDatabase (Branches, Employees, Customers, Accounts, Transactions, Phucs, Cards)>
+
+<!ELEMENT Branches (Branch+)>
+<!ELEMENT Branch (BranchID, Name, Address, Phone)>
+<!ELEMENT BranchID (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Phone (#PCDATA)>
+
+<!ELEMENT Employees (Employee+)>
+<!ELEMENT Employee (EmployeeID, FullName, Position, Department, BranchID)>
+<!ELEMENT EmployeeID (#PCDATA)>
+<!ELEMENT FullName (#PCDATA)>
+<!ELEMENT Position (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+
+<!ELEMENT Customers (Customer+)>
+<!ELEMENT Customer (CustomerID, FullName, BirthDate, Phone, Email, Address)>
+<!ELEMENT CustomerID (#PCDATA)>
+<!ELEMENT BirthDate (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+
+<!ELEMENT Accounts (Account+)>
+<!ELEMENT Account (AccountID, Type, Balance, OpenDate, CustomerID)>
+<!ELEMENT AccountID (#PCDATA)>
+<!ELEMENT Type (#PCDATA)>
+<!ELEMENT Balance (#PCDATA)>
+<!ELEMENT OpenDate (#PCDATA)>
+
+<!ELEMENT Transactions (Transaction+)>
+<!ELEMENT Transaction (TransactionID, Date, Amount, Type, AccountID)>
+<!ELEMENT TransactionID (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT Amount (#PCDATA)>
+
+<!ELEMENT Phucs (Phuc+)>
+<!ELEMENT Phuc (Phucid, Amount, InterestRate, Term, StartDate, CustomerID)>
+<!ELEMENT Phucid (#PCDATA)>
+<!ELEMENT InterestRate (#PCDATA)>
+<!ELEMENT Term (#PCDATA)>
+<!ELEMENT StartDate (#PCDATA)>
+
+<!ELEMENT Cards (Card+)>
+<!ELEMENT Card (CardID, Type, IssueDate, ExpiryDate, AccountID)>
+<!ELEMENT CardID (#PCDATA)>
+<!ELEMENT IssueDate (#PCDATA)>
+<!ELEMENT ExpiryDate (#PCDATA)>
